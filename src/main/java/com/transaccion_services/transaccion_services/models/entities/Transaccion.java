@@ -1,4 +1,4 @@
-package com.transaction_service.transaction_service.models.entities;
+package com.transaccion_services.transaccion_services.models.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -8,17 +8,17 @@ import java.util.Date;
 @Data
 @Entity
 @Table(name = "Transaccion")
-public class Transaction {
+public class Transaccion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_transaccion;
 
     @Column(nullable = false)
-    private int billeteras_id_billetera;
+    private int id_billetera;
 
     @Column(nullable = false)
-    private int apuestas_id_apuesta;
+    private int id_apuesta;
 
     @Column(nullable = false)
     private String tipo_transaccion;

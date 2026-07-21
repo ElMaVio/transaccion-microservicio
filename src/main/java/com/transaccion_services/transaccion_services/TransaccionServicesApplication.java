@@ -1,13 +1,13 @@
-package com.transaction_service.transaction_service;
+package com.transaccion_services.transaccion_services;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TransactionServiceApplication {
+public class TransaccionServicesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TransactionServiceApplication.class, args);
+		SpringApplication.run(TransaccionServicesApplication.class, args);
 	}
 
 }
